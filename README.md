@@ -1,4 +1,4 @@
-##Quem somos nós?
+## Quem somos nós?
 
 Empresa criada em 1999 com objetivo de encontrar soluções que realmente atendessem as necessidades de TI hospitalar, agregando a isso a experiência de gestores que trabalham na área da Saúde.
 
@@ -36,6 +36,7 @@ Quando finalizar o teste, publique sua branch(seu nome e sobrenome) e envie um e
 
 
 **Dúvida**
+
 Se tiver qualquer dúvida sobre esse teste, envie um email com o título [Teste Fullstack] O assunto que vc deseja para brennosantana@medlynx.com.br
 
 

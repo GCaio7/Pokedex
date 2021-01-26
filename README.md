@@ -1,6 +1,6 @@
 ## Quem somos nós?
 
-Empresa criada em 1999 com objetivo de encontrar soluções que realmente atendessem as necessidades de TI hospitalar, agregando a isso a experiência de gestores que trabalham na área da Saúde.
+Empresa criada em 1999 com objetivo de encontrar soluções que realmente atendessem as necessidades de TI hospitalar, agregando a isso a experiência de gestores que trabalham na área da Saúde. 
 
 Em 2009 e 2012 ganhamos o prêmio Competitividade para Micros e pequenas empresas no Segmento TI a nível estadual, sendo automaticamente classificado e ficando entre os finalistas do prêmio nacional. Somos uma empresa graduada pela incubadora de empresas da Universidade Federal de Sergipe e com reconhecimento de instituições importantes no seguimento de saúde, inclusive em algumas instituições acreditadas e certificadas.
 

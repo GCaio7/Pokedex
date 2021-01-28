@@ -23,12 +23,12 @@
 
           <div class="detalhe">
             <div class="item">Height</div>
-            <div class="desc"><?php echo formatHeight($pokemonInfo->getHeight()); ?> m</div>
+            <div class="desc"><?php echo convertToDecimal($pokemonInfo->getHeight()); ?> m</div>
           </div>
 
           <div class="detalhe">
             <div class="item">Weight</div>
-            <div class="desc"><?php echo formatWeight($pokemonInfo->getWeight()); ?> kg</div>
+            <div class="desc"><?php echo convertToDecimal($pokemonInfo->getWeight()); ?> kg</div>
           </div>
         </div>
         <div class="col-6">

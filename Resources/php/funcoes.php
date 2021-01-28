@@ -1,11 +1,6 @@
 <?php
-  function formatHeight($height)
+  function convertToDecimal($value)
   {
-    return number_format((float)($height * 0.1), 2, '.', '');
-  }
-
-  function formatWeight($weight)
-  {
-    return number_format((float)($weight * 0.1), 2, '.', '');
+    return number_format((float)($value * 0.1), 1, '.', '');
   }
 ?>

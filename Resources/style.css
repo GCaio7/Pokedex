@@ -12,7 +12,7 @@
 }
 
 #boas-vindas{
-  height: 100vh;
+  height: 86vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,12 +59,12 @@
 }
 
 .item{
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .desc{
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .detalhe{
@@ -77,5 +77,14 @@
 }
 
 #rodape{
-  color: #ffffff;
+  color: #222224;
+}
+
+#erro{
+  width: 100vw;
+  height: 86vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }

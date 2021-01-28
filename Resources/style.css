@@ -25,7 +25,6 @@
   border-radius: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
-  height: 100vh;
   width: 50vw;
 }
 
@@ -69,7 +68,12 @@
 }
 
 .detalhe{
+  padding: 5px;
+  color: #f1f1f1;
   margin: 30px;
+  border-radius: 5px;
+  background-image: linear-gradient(#0003d1, #0004ff);
+  box-shadow: -1px 4px 1px #0003a5;
 }
 
 #rodape{

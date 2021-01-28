@@ -1,5 +1,5 @@
 <?php
-  require_once("../Persistencia/PersistenciaPokemon.php");
+  require_once "../Persistencia/PersistenciaPokemon.php";
 
   class GerenciadoraPokemon
   {

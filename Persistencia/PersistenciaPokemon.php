@@ -1,11 +1,12 @@
 <?php
-  require_once("DaoGenerico.php");
-  require_once("../Model/Pokemon.php");
+  require_once "DaoGenerico.php";
+  require_once "../Model/Pokemon.php";
 
   class PersistenciaPokemon implements DaoGenerico
   {
     function buscarPorNome($nome)
     {
+      $pokemon = null;
       $baseUrl = 'https://pokeapi.co/api/v2/pokemon/';
       $ch = curl_init();
 
@@ -16,21 +17,22 @@
       curl_setopt($ch, CURLOPT_URL,$completeUrl);
       $json=curl_exec($ch);
 
-      //return resultado
       $dataSet = json_decode($json, true);
 
-      //Povoando variáveis com itens do Json
-      $ability = $dataSet["abilities"]["0"]["ability"]["name"];
-      $height = $dataSet["height"];
-      $id = $dataSet["id"];
-      $baseXp = $dataSet["base_experience"];
-      $name = $dataSet["name"];
-      $artwork = $dataSet["sprites"]["other"]["official-artwork"]["front_default"];
-      $type = $dataSet["types"]["0"]["type"]["name"];
-      $weight = $dataSet["weight"];
+      if(!is_null($dataSet)){
+        //Povoando variáveis com itens do Json
+        $ability = $dataSet["abilities"]["0"]["ability"]["name"];
+        $height = $dataSet["height"];
+        $id = $dataSet["id"];
+        $baseXp = $dataSet["base_experience"];
+        $name = $dataSet["name"];
+        $artwork = $dataSet["sprites"]["other"]["official-artwork"]["front_default"];
+        $type = $dataSet["types"]["0"]["type"]["name"];
+        $weight = $dataSet["weight"];
 
-      $pokemon = new Pokemon($ability, $height, $id, $baseXp, $name, $artwork, $type, $weight);
-      
+        $pokemon = new Pokemon($ability, $height, $id, $baseXp, $name, $artwork, $type, $weight);
+      }
+     
       return $pokemon;
     }
   }

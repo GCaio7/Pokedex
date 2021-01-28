@@ -3,7 +3,7 @@
   <div class="container text-center">
     <div id="error-msg">
       <h1>Oh!</h1>
-      <img src="Resources/Images/error_img.png" alt="Error Image" width="200px">
+      <img src="Resources/Images/error_img.png" alt="Error Image" width="250px">
       <p>Pokémon não encontrado...</p>
     </div>
   </div>

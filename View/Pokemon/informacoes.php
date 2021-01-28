@@ -1,5 +1,5 @@
-<?php require_once("../View/Shared/header.php");
-      require_once("../Resources/php/funcoes.php");
+<?php require_once "../View/Shared/header.php";
+      require_once "../Resources/php/funcoes.php";
 ?>
 <div class="container text-center d-flex justify-content-center">
   <div class="text-center" id="informacoes-pokemon">
@@ -23,18 +23,18 @@
 
           <div class="detalhe">
             <div class="item">Height</div>
-            <div class="desc"><?php echo formatHeight($pokemonInfo->getHeight()); ?>m</div>
+            <div class="desc"><?php echo formatHeight($pokemonInfo->getHeight()); ?> m</div>
           </div>
 
           <div class="detalhe">
             <div class="item">Weight</div>
-            <div class="desc"><?php echo formatWeight($pokemonInfo->getWeight()); ?> Kg</div>
+            <div class="desc"><?php echo formatWeight($pokemonInfo->getWeight()); ?> kg</div>
           </div>
         </div>
         <div class="col-6">
           <div class="detalhe">
             <div class="item">Base XP</div>
-            <div class="desc"><?php echo $pokemonInfo->getBaseXp()?></div>
+            <div class="desc"><?php echo $pokemonInfo->getBaseXp(); ?> XP</div>
           </div>
           <div class="detalhe">
             <div class="item">Type</div>
@@ -46,5 +46,5 @@
   </div>
 </div>
 <?php
-	require_once('../View/Shared/footer.php');
+	require_once "../View/Shared/footer.php";
 ?>

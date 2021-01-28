@@ -1,6 +1,4 @@
-<?php
-  require_once("View/Shared/header.php");
-?>
+<?php require_once "../View/Shared/header.php"; ?>
 <div id="home">
   <div class="container text-center">
     <div id="boas-vindas">
@@ -12,5 +10,5 @@
 </div>
 
 <?php
-	require_once('View/Shared/footer.php');
+	require_once "../View/Shared/footer.php";
 ?>

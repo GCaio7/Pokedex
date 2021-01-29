@@ -13,7 +13,7 @@
         header("Location: error");
       break;
     default:
-      header("Location: pokemon");
+      header("Location: home");
       break;
   }
 ?>

@@ -17,8 +17,8 @@
         <img src="Resources/Images/logo.png" alt="Logo" width=50px>
         Pokédex
       </a>
-      <form class="form-inline d-flex" id="search-form" method="post" action="pokemon?action=buscarPorNome">
-        <input class="form-control m-1" name="search-term" type="text" placeholder="Buscar pelo Nome" aria-label="Search" required>
+      <form class="form-inline d-flex" id="search-form" method="post" action="pokemon?action=buscar">
+        <input class="form-control m-1" name="search-term" type="text" placeholder="Buscar" aria-label="Search">
         <button id="search-button" class="btn m-1" type="submit">Buscar</button>
       </form>
     </nav>

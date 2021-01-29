@@ -5,8 +5,11 @@
   $action = $_REQUEST["action"];
 
   switch ($action) {
-    case "buscarPorNome":
-      $pokemonInfo = $gerenciadoraPokemon->buscarPorNome($_POST["search-term"]);
+    case "buscar":
+      $searchTerm = $_POST["search-term"];
+      if(empty($searchTerm))
+        $searchTerm = random_int(1, 890);
+      $pokemonInfo = $gerenciadoraPokemon->buscar($searchTerm);
       if(!is_null($pokemonInfo))
         require_once "../View/Pokemon/informacoes.php";
       else

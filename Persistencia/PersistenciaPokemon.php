@@ -4,13 +4,13 @@
 
   class PersistenciaPokemon implements DaoGenerico
   {
-    function buscarPorNome($nome)
+    function buscar($nomeOuId)
     {
       $pokemon = null;
       $baseUrl = 'https://pokeapi.co/api/v2/pokemon/';
       $ch = curl_init();
-
-      $completeUrl = $baseUrl . strtolower($nome);
+      
+      $completeUrl = $baseUrl . strtolower($nomeOuId);
 
       curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);

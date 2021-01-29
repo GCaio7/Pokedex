@@ -10,9 +10,9 @@
       $this->persistencia = new PersistenciaPokemon();
     }
 
-    function buscarPorNome($nome)
+    function buscar($nomeOuId)
     {
-      return $this->persistencia->buscarPorNome($nome);
+      return $this->persistencia->buscar($nomeOuId);
     }
   }
 ?>

@@ -1,6 +1,6 @@
 <?php
   interface DaoGenerico
   {
-    function buscarPorNome($nome);
+    function buscar($nomeOuId);
   }
 ?>

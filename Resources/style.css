@@ -54,6 +54,10 @@
   border-radius: 50%;
 }
 
+#nome-pokemon h2{
+  font-size: 35px;
+}
+
 #detalhes-pokemon{
   color: #222224;
 }
@@ -87,4 +91,8 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
+}
+#erro p{
+  margin-top: 25px;
+  font-size: 20px;
 }

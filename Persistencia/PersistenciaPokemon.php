@@ -33,7 +33,7 @@
 
         $pokemon = new Pokemon($ability, $height, $id, $baseXp, $name, $artwork, $type, $weight, $movesNumber);
       }
-     
+      curl_close($ch);
       return $pokemon;
     }
   }

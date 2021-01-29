@@ -29,8 +29,9 @@
         $artwork = $dataSet["sprites"]["other"]["official-artwork"]["front_default"];
         $type = $dataSet["types"]["0"]["type"]["name"];
         $weight = $dataSet["weight"];
+        $movesNumber = count($dataSet["moves"]);
 
-        $pokemon = new Pokemon($ability, $height, $id, $baseXp, $name, $artwork, $type, $weight);
+        $pokemon = new Pokemon($ability, $height, $id, $baseXp, $name, $artwork, $type, $weight, $movesNumber);
       }
      
       return $pokemon;

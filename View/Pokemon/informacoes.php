@@ -13,8 +13,8 @@
     </div>
 
     <div id="detalhes-pokemon">
-      <div class="row">
-        <div class="col-6">
+      <div class="row mb-3">
+        <div class="col-md-12 col-lg-6">
 
           <div class="detalhe">
             <div class="item">Ability</div>
@@ -31,7 +31,7 @@
             <div class="desc"><?php echo convertToDecimal($pokemonInfo->getWeight()); ?> kg</div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-md-12 col-lg-6">
           <div class="detalhe">
             <div class="item">Base XP</div>
             <div class="desc"><?php echo $pokemonInfo->getBaseXp(); ?> XP</div>
@@ -39,6 +39,10 @@
           <div class="detalhe">
             <div class="item">Type</div>
             <div class="desc"><?php echo ucfirst($pokemonInfo->getType())?></div>
+          </div>
+          <div class="detalhe">
+            <div class="item">Moves</div>
+            <div class="desc"><?php echo $pokemonInfo->getMovesNumber()?></div>
           </div>
         </div>
       </div>
